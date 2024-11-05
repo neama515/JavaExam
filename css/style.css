@@ -1,0 +1,211 @@
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.whiteCast {
+  width: 13%;
+}
+.bar {
+  width: 50%;
+  padding: 35px 0;
+}
+.bar ul {
+  list-style: none;
+  overflow: hidden;
+}
+.bar ul li {
+  margin: 0px 0 15px 0;
+  color: white;
+  position: relative;
+  top: 300px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.barFooter {
+  color: white;
+}
+.sidebar {
+  position: fixed;
+  z-index: 999;
+  left: -255px;
+  transition: all 1s;
+}
+.mark1,
+.mark2,
+.iconsDiv i {
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  cursor: pointer;
+}
+.layer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: all 0.5s;
+}
+.card:hover .layer {
+  top: 0px;
+  cursor: pointer;
+}
+.layer p {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  font-size: 28px;
+  line-height: 34px;
+}
+.search input.form-control {
+  /* height: 900px; */
+  width: 35%;
+  margin: 25px 15px;
+}
+
+.form-control::placeholder {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-weight: 400;
+  color: rgb(160, 160, 160);
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-control:focus {
+  color: rgb(160, 160, 160);
+}
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.det {
+  padding: 40px 0;
+}
+.layer .p2 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.area i {
+  color: white;
+}
+.row5 h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-weight: 500;
+  color: rgb(249, 246, 246);
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.pIng {
+  overflow: hidden;
+  color: white;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  text-align: center;
+}
+.contact .btn {
+  width: 70px;
+  color: rgb(105, 28, 28);
+  border-color: rgb(105, 28, 28);
+}
+.contact {
+  padding: 15% 0;
+}
+i {
+  cursor: pointer;
+}
+
+.det {
+  padding-left: 40px;
+}
+.col-sm-4 h4,
+.col-sm-6 h4 {
+  font-weight: 500;
+  color: rgb(249, 246, 246);
+  font-size: 32px;
+  line-height: 38px;
+}
+.col-sm-6 p {
+  font-size: 400;
+  color: rgb(249, 246, 246);
+  font-size: 16px;
+  line-height: 24px;
+}
+.p1,
+.p22,
+.p33,
+.p4 {
+  font-weight: 500;
+  color: rgb(249, 246, 246);
+  font-size: 28px;
+  line-height: 34px;
+}
+.p1,
+.p22 {
+  font-weight: 700;
+}
+.p33 span,
+.p4 span {
+  background-color: #cff4fc;
+  color: #055160;
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 0px 2px;
+}
+.p4 span {
+  color: rgb(132, 32, 41);
+  background-color: #f8d7da;
+}
+.loading {
+  position: fixed;
+  inset: 0;
+  background-color: black;
+  z-index: 1000;
+}
+.vEmail {
+  background-color: #f8d7da;
+  font-weight: 400;
+  color: rgb(132, 32, 41) !important;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 5px;
+  border-radius: 5px;
+}
+.det .btn {
+  transition: all 0.2s;
+}
+.det .btn:focus, .det .btn:active{
+  box-shadow: 0px 0px 0px 5px  rgba(60, 153, 110, .5);;
+}
+.det .btn-danger:focus, .det .btn-danger:active{
+  box-shadow: 0px 0px 0px 5px  rgba(225, 83, 97, .5);;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="fa-bookmark">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+    <div class="HomeSection ">
+
+        <div class="sidebar d-flex ">
+            <div class="bar bg-black vh-100 d-flex flex-column justify-content-between ">
+                <ul>
+                    <li><a href="" id="search">Search</a></li>
+                    <li style="top: 400px;"><a href="" id="categories">Categories</a></li>
+                    <li style="top: 500px;"><a href="" id="area">Area</a></li>
+                    <li style="top: 600px;"><a href="" id="ingredients">Ingredients</a></li>
+                    <li style="top: 700px;"><a href="" id="contact">Contact Us</a></li>
+                </ul>
+                <div class="barFooter ms-4">
+                    <div class="barIcons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <p>Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="whiteCast bg-white d-flex flex-column justify-content-between align-items-center  vh-100">
+                <img src="images/logo.png" class="w-75 my-4" alt="website logo">
+                <i class="fa-solid open-close-icon fa-2x fa-align-justify mark1"></i>
+                <i class="fa-solid open-close-icon fa-2x fa-x mark2 d-none"></i>
+                <div class="iconsDiv my-4">
+                    <i class="fa-solid fa-globe d-block"></i>
+                    <i class="fa-solid fa-share-nodes"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="cards bg-black ">
+        <div class="container p-4 row m-auto row1" id="container">
+
+
+        </div>
+    </div>
+    <div class="search bg-black d-none ">
+        <div class="d-flex justify-content-center">
+            <input type="text" class="form-control bg-black input1" placeholder="Search By Name">
+            <input type="text" class="form-control bg-black input2 " placeholder="search By First Letter" maxlength="1">
+        </div>
+        <div class=" container p-4 row row2 m-auto">
+        </div>
+    </div>
+    <div class="categories  bg-black d-none ">
+        <div class="row row3 container mx-auto ">
+
+        </div>
+        <div class="row row4 container mx-auto d-none">
+
+        </div>
+
+    </div>
+    <div class="area container d-none">
+        <div class="row5 row container mx-auto ">
+
+        </div>
+        <div class="row6 row container mx-auto ">
+
+        </div>
+    </div>
+    <div class="ing container d-none ">
+        <div class="row7 row container mx-auto ">
+
+        </div>
+        <div class="row8 row container mx-auto ">
+
+        </div>
+    </div>
+    <div class="contact container my-auto  d-none text-center">
+
+
+        <div class="row ">
+            <div class="col-sm-6 my-3 d-flex justify-content-end"><input type="text" id="name"
+                    placeholder="Enter Your Name" class="form-control  w-75 ">
+            </div>
+            <div class="col-sm-6 my-3 d-flex  flex-column align-items-start "><input type="email"
+                    placeholder="Enter Your Email" class="form-control email w-75" id="email">
+
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-end d-none VE">
+            </div>
+            <div class="col-sm-6  mb-2 d-flex  justify-content-start d-none VE">
+                <p class="vEmail text-center w-75">Email not valid *example@(gmail or yahoo).com
+                </p>
+
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-end"><input type="text" id="phone"
+                    placeholder="Enter Your Phone" class="form-control w-75"></div>
+            <div class="col-sm-6 my-3 d-flex justify-content-start"><input type="number" id="age" name="age" min="0"
+                    max="200" placeholder="Enter Your Age" class="form-control w-75">
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-end d-none VPH">
+                <p class="vEmail text-center w-75">Enter valid Phone Number
+                </p>
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-end d-none VA">
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-start d-none VA">
+                <p class="vEmail text-center w-75">Enter valid Age
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-6 my-3 d-flex justify-content-end"><input id="pass" type="password"
+                    placeholder="Enter Your Password" class="form-control w-75"></div>
+            <div class="col-sm-6 my-3 d-flex justify-content-start"><input type="password" id="repass"
+                    placeholder="Repassword" class="form-control w-75">
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-end d-none VP">
+                <p class="vEmail text-center w-75 ">Enter valid password *Minimum eight characters, at least one
+                    letter and one
+                    number:*
+                </p>
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-start d-none VRP">
+
+            </div>
+            <div class="col-sm-6 my-3 d-flex justify-content-start d-none VRP">
+                <p class="vEmail text-center w-75">Enter valid repassword
+                </p>
+            </div>
+        </div>
+        <button type="button" id="sub" class="btn btn-outline-danger mx-auto " disabled>Submit</button>
+
+    </div>
+    <div class="det container d-none ">
+        <div class="row container row9">
+
+        </div>
+    </div>
+
+
+    <div class="loading d-flex justify-content-center align-items-center d-none">
+        <i class="fa-solid fa-spinner fa-spin fa-4x text-white"></i>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
